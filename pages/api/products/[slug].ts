@@ -9,7 +9,7 @@ type Data =
     message: string
 }
 
-export default async function (req: NextApiRequest, res: NextApiResponse<Data>) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse<Data>) {
 
     switch (req.method) {
         case 'GET':

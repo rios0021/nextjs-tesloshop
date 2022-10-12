@@ -2,7 +2,8 @@ import NextLink from 'next/link';
 import { Typography, Grid, Card, CardContent, Divider, Box, Link, Chip } from "@mui/material"
 import { CartList, OrderSummary } from "../../components/cart"
 import { ShopLayout } from "../../components/layouts"
-import { CreditCardOffOutlined, CreditScoreOutlined } from '@mui/icons-material';
+import CreditCardOffOutlined from '@mui/icons-material/CreditCardOffOutlined';
+import CreditScoreOutlined from '@mui/icons-material/CreditScoreOutlined';
 
 
 const OrderPage = () => {
